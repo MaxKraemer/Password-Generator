@@ -1,6 +1,6 @@
 function getPassword(){
 
-    let chars = "0123456789sbcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!§$%&()_+-<>:;{}";
+    let chars = "0123456789sbcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!§$%&()_+-<>:;{}"; //password marks
     let passwordLength = 14;
     let password = "";
 
@@ -10,6 +10,6 @@ function getPassword(){
         password += chars.substring(randomNumber,randomNumber+ 1);
         
     }
-    document.getElementById("password").value = password;
+    document.getElementById("password").value = password; 
 }
 
